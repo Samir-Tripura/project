@@ -1,0 +1,15 @@
+    [package]
+    name = "CertificateVerification"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x33bf8edbfbba9b2146c5c4947e094b50ec1179d8fa6f0cfbd9a438bd6bf4ffeb'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
